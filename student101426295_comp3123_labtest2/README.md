@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+Screenshots + Descriptions
+1.  App Running Successfully
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Shows the full weather dashboard with the left panel, forecast strip, and stats box.
 
-## Available Scripts
+Screenshot:
+(Insert your screenshot of the running app)
 
-In the project directory, you can run:
+Description:
+The app successfully fetches live weather data for Toronto by default.
+It displays the city name, date, temperature, weather description, humidity, wind speed, and more.
 
-### `npm start`
+2.  API Working in Developer Console
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Screenshot:
+(Insert screenshot showing API KEY printed or network fetch request)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Description:
+This output confirms the environment variable REACT_APP_WEATHER_KEY is correctly loaded and the API call is made from React.
 
-### `npm test`
+3.  Postman Test – Successful API Response
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Screenshot:
+(Insert screenshot showing JSON response in Postman)
 
-### `npm run build`
+Description:
+Using Postman, I tested the OpenWeather API endpoint to verify the API key, query parameters, and returned JSON fields before integrating it into React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4.  Project File Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Screenshot:
+(Insert screenshot of VS Code file tree)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Description:
+This shows the React application files including App.js, WeatherCard, SearchBar, CSS styles, and the .env file containing the API key.
 
-### `npm run eject`
+5.  GitHub Repository Upload – Successful Push
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Screenshot:
+(Insert screenshot showing git push -u origin main)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Description:
+This confirms the project was successfully initialized as a Git repository, connected to GitHub, and pushed without issues.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Search for any city
 
-## Learn More
+Real-time weather data using OpenWeather API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Dark theme modern UI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Shows:
 
-### Code Splitting
+Temperature
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Weather description
 
-### Analyzing the Bundle Size
+Humidity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Wind speed
 
-### Making a Progressive Web App
+Date & day
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+City + country
 
-### Advanced Configuration
+Includes forecast placeholders for design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ Testing Tools Used
 
-### Deployment
+Postman – to test API endpoint
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+React Developer Tools – to check component rendering
 
-### `npm run build` fails to minify
+Chrome DevTools – for console logs and network requests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ How to Run the App
+
+Clone repository
+
+git clone https://github.com/DenrickShawnViera/-101426295_comp3123_labtest2.git
+
+
+Install dependencies
+
+npm install
+
+
+Create .env file in the project root:
+
+REACT_APP_WEATHER_KEY=your_api_key_here
+
+
+Run the application
+
+npm start
+
+ Additional Notes
+
+API key must be verified before use
+
+.env file is not committed because of .gitignore
+
+UI redesigned to dark theme per professor’s instructions
+
+End of Documentation
+
+If you want, I can generate this automatically in Markdown with your screenshots inserted, or I can push the README.md to your GitHub for you.
+
+Just upload your screenshots now and I will insert them with proper formatting.
